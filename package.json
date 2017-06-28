@@ -1,0 +1,30 @@
+{
+  "name": "aso-cli",
+  "version": "0.0.1",
+  "description": "CLI wrapper for aso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aso-cli": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exicon/aso-cli.git"
+  },
+  "keywords": [
+    "aso",
+    "cli"
+  ],
+  "author": "Peter Romfeld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exicon/aso-cli/issues"
+  },
+  "homepage": "https://github.com/exicon/aso-cli#readme",
+  "dependencies": {
+    "aso": "^1.0.0",
+    "commander": "^2.10.0"
+  }
+}
